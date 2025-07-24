@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Warna latar belakang yang cerah */
+    color: #333;
+}
+
+/* Container utama */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: #ff5722; /* Warna judul */
+    margin-bottom: 20px;
+}
+
+/* Formulir */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input dan label */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #ff5722; /* Warna border saat fokus */
+}
+
+/* Tombol */
+button {
+    padding: 10px;
+    background-color: #0018b5; /* Warna tombol */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0006ae; /* Warna tombol saat hover */
+}
+
+/* Tabel untuk daftar buku */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table th,
+.table td {
+    border: 1px solid #8700ed;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #ffeb3b; /* Warna header tabel */
+    color: #333;
+}
+
+/* Pesan sukses atau error */
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: #dff0d8; /* Warna pesan sukses */
+    color: #7400e9;
+}
+
+.error {
+    background-color: #f2dede; /* Warna pesan error */
+    color: #a94442;
+}
+
+/* Gaya tambahan untuk elemen lain */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+}
+
+.footer a {
+    color: #2196f3; /* Warna link */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+                    
